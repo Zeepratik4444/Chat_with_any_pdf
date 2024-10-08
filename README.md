@@ -25,6 +25,7 @@ Things to keep in mind before getting started:
 - While giving the EmbedPDF command we need to mention "r" before feeding the path 
 - There must be a varriable storing the vectors we have got from embedding the pdf
 - While querying we need to mention the same varriable the vectors are stored in so that it retireive the vectors
+- Please make sure the latest dependencies is been installed if not please give this command in terminal pip install -r requirements.txt
 
 
 I have attached a Jupyter notebook demonstrating how to query the pdf named test.ipynb

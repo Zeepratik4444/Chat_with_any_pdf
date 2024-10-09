@@ -29,6 +29,7 @@ prompt=ChatPromptTemplate.from_template(
     """
     Answer the questions based on the provided context only.
     Please provide the most accurate respone based on the question
+    Don't mention according to the context
     <context>
     {context}
     <context>

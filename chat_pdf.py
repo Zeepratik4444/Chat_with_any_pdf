@@ -11,7 +11,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 from dotenv import load_dotenv
-
+load_dotenv()
 ## load the GROQ API Key
 os.environ['GROQ_API_KEY']=os.getenv("GROQ_API_KEY")
 os.getenv("GOOGLE_API_KEY")
